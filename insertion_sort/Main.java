@@ -25,4 +25,10 @@ public class Main {
         }
 
     }
+
+    static void insertsort(int[]arr){
+        for(int i=0;i<=arr.length-2;i++){
+            
+        }
+    }
 }
