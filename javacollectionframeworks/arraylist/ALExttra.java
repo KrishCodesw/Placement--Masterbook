@@ -31,6 +31,8 @@ class MyComparator implements Comparator<Integer> {
         // let's take o1=5, o2=3 and we want them in descending order ; that means as it
         // is ; o1 should come before o2 ; result negative
         // --- > o2-o1 will be the condition for descending
+        // Comparator done
 
+        Comparator<Integer> comp = Comparator.comparing(o1);
     }
 }
