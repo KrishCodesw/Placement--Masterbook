@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class L2 {
@@ -14,6 +15,11 @@ public class L2 {
                 linkedList.remove(2);
                 linkedList.removeIf(x -> x % 2 == 0);
                 System.out.println(linkedList);
+
+                LinkedList<String> animals = new LinkedList<>(Arrays.asList("Cat", "Dog", "Lion", "Kangaroo", "Tiger"));
+                System.out.println(animals);
+                animals.removeAll(Arrays.asList("Dog", "Cat"));
+                System.out.println(animals);
 
         }
 }
