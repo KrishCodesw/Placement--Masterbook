@@ -11,6 +11,7 @@ public class L1 {
         node1.next = node2;
         node2.value = 2;
         node2.next = null;
+
     }
 }
 
