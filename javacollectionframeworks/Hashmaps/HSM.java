@@ -1,4 +1,6 @@
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class HSM {
     public static void main(String[] args) {
@@ -13,5 +15,15 @@ public class HSM {
         System.out.println(hmap.containsKey(2));
         System.out.println(hmap.containsValue("Student1"));
 
+        for (int i : hmap.keySet()) {
+            System.out.println(hmap.get(i));
+        }
+
+        Set<Map.Entry<Integer, String>> entries = hmap.entrySet();
+        for (Map.Entry<Integer, String> entry : entries) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+            entry.setValue(entry.getValue().toLowerCase());
+            System.out.println(hmap);
+        }
     }
 }
