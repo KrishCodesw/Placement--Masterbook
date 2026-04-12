@@ -23,6 +23,9 @@ public class IdentityHashmapdemo {
         // and not of the String class which means the hashcode depends on the memory
         // address and the hashcode will differ and the bucket will store it in
         // different index
-        // Identity hashcode and ==
+        // Identity hashcode and == Content will not be checked , reference will be
+        // checked
+        System.out.println(System.identityHashCode(Key1));
+        System.out.println(Key1.hashCode());
     }
 }
