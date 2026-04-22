@@ -14,6 +14,7 @@ public class ImmutableMapDemo {
         } catch (UnsupportedOperationException e) {
             System.out.println("Exception caught as expected");
         }
+
     }
 
 }
