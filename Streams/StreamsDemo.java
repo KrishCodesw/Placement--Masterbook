@@ -13,6 +13,7 @@ public class StreamsDemo {
         // Above is called imperative programming
         // Below is called declarative programming
         int[] arr2 = { 1, 2, 3, 4, 45, 5, 6, 7, 8, 9, 10 };
+        Arrays.stream(arr2);
         int sum2 = Arrays.stream(arr2).filter(n -> n % 2 == 0).sum();
         System.out.println(sum2);
 
