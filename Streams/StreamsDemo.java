@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class StreamsDemo {
     public static void main(String[] args) {
@@ -17,5 +19,15 @@ public class StreamsDemo {
         int sum2 = Arrays.stream(arr2).filter(n -> n % 2 == 0).sum();
         System.out.println(sum2);
 
+        // Implementation of stream
+        List<String> names = Arrays.asList("Shubham", "Shivam", "Satyarth", "Shivansh");
+        Stream<String> nameS = names.stream();
+
+        Stream<Integer> nums = Stream.of(1, 2, 34, 67, 8, 8, 8, 9, 9);
+        // Stream.iterate(0, n -> n + 1); // Will print infinite numbers starting from 0
+        // and incrementing by 1
+        Stream<Integer> numeee = Stream.iterate(0, n -> n + 1).limit(100); // Will print infinite numbers starting from
+                                                                           // 0 and incrementing by 1
+        // Stream<Integer> namess = Stream.generate((int)->Math.random()*100).limit(15);
     }
 }
