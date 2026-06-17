@@ -1,7 +1,7 @@
 public class MagicNumber {
     public static void main(String[] args) {
 
-        int n = 6;
+        int n = 60000;
         int ans = Magic(n);
         System.out.println(ans);
 
