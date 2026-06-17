@@ -25,7 +25,7 @@
 
 public class FindPowof2 {
     public static void main(String[] args) {
-        int n = 128;
+        int n = 0;
         boolean ans = FindIfPowof2(n);
         System.out.println(ans);
     }
