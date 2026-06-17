@@ -9,9 +9,13 @@ public class MagicNumber {
 
     private static int Magic(int n) {
         int magic = 0;
+        int base = 5;
 
         while (n > 0) {
-            
+            int last = n & 1;
+            n = n >> 1;
+            magic += last * base;
+            base = base * 5;
         }
 
         return magic;
