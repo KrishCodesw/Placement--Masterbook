@@ -6,19 +6,16 @@ public class FindPowof2 {
     }
 
     private static boolean FindIfPowof2(int n) {
-        boolean ans = false;
+        boolean ans = true;
 
-        
-
-        int count = 0;
-        while (n > 1) {
-            n = n >> 1;
-            if (n == 1) {
-                count++;
-            }
+        if (n <= 0) {
+            return false;
         }
-        if (count == 1) {
-            ans = true;
+        while (n > 1) {
+            if ((n & 1) != 0) {
+                ans = false;
+            }
+            n = n >> 1;
         }
 
         return ans;
