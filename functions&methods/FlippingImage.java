@@ -1,5 +1,14 @@
+import java.util.Arrays;
+
 class FlippingImage {
-    public int[][] flipAndInvertImage(int[][] arr) {
+
+    public static void main(String[] args) {
+        int[][] arr = { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 0 } };
+
+        System.out.println(Arrays.deepToString((flipAndInvertImage(arr))));
+    }
+
+    public static int[][] flipAndInvertImage(int[][] arr) {
         int[][] reverseArr1 = reverseArr(arr);
         int rows = arr.length;
         int cols = arr[0].length;
@@ -16,7 +25,7 @@ class FlippingImage {
 
     }
 
-    public int[][] reverseArr(int[][] arr) {
+    public static int[][] reverseArr(int[][] arr) {
         int rows = arr.length;
         int cols = arr[0].length;
 
