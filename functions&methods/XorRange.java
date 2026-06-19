@@ -2,7 +2,8 @@ public class XorRange {
 
     public static int XorInRange(int p, int q) {
         int XortillB = getXorSum(q);
-        int XorprevA = getXorSum(p - 1);
+        int XorprevA = (p == 0) ? 0 : getXorSum(p - 1);
+
         return XorprevA ^ XortillB;
 
     }
