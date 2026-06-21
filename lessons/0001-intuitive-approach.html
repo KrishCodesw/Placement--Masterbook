@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intuitive Approach to Prime Checking</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; line-height: 1.6; color: #333; max-width: 800px; }
+        h1, h2 { color: #2c3e50; }
+        .container { background: #fdfdfd; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .question { background: #e8f4fc; padding: 15px; margin: 20px 0; border-radius: 5px; border-left: 4px solid #3498db; }
+        .hint { color: #5d6d7e; font-style: italic; }
+        .answer-area { margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 5px; display: none; }
+        button { background: #3498db; color: white; border: none; padding: 10px 15px; cursor: pointer; border-radius: 4px; }
+        button:hover { background: #2980b9; }
+        .footer { margin-top: 30px; font-size: 0.9em; color: #7f8c8d; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Intuitive Approach to Prime Checking</h1>
+        <p>Let's start from the basics: a prime number is only divisible by 1 and itself.</p>
+        
+        <div class="question">
+            <strong>Question 1:</strong> If you want to check whether a number <code>n</code> is prime, what is the most straightforward way you might think of?
+        </div>
+        <div class="answer-area" id="answer1">
+            <p><strong>Answer:</strong> Check if any number from 2 to <code>n-1</code> divides <code>n</code> evenly. If none do, it's prime.</p>
+        </div>
+        <button onclick="showAnswer('answer1')">Reveal Answer</button>
+        
+        <div class="question">
+            <strong>Question 2:</strong> That method works, but can we do fewer checks? Think about factors: if <code>a × b = n</code>, what can you say about <code>a</code> and <code>b</code> relative to <code>√n</code>?
+        </div>
+        <div class="answer-area" id="answer2">
+            <p><strong>Answer:</strong> At least one of the factors must be ≤ √n. So we only need to check divisors up to √n.</p>
+        </div>
+        <button onclick="showAnswer('answer2')">Reveal Answer</button>
+        
+        <div class="question">
+            <strong>Question 3:</strong> Are there any numbers we can skip checking altogether? For example, after checking 2, what about even numbers?
+        </div>
+        <div class="answer-area" id="answer3">
+            <p><strong>Answer:</strong> After confirming the number is not divisible by 2, we can skip all other even divisors. So we only need to test odd numbers (and 2).</p>
+        </div>
+        <button onclick="showAnswer('answer3')">Reveal Answer</button>
+        
+        <div class="question">
+            <strong>Question 4:</strong> Combine these ideas: what is an efficient algorithm to test if <code>n</code> is prime?
+        </div>
+        <div class="answer-area" id="answer4">
+            <p><strong>Answer:</strong> 
+                <ol>
+                    <li>If n ≤ 1 → not prime.</li>
+                    <li>If n = 2 → prime.</li>
+                    <li>If n is even → not prime.</li>
+                    <li>Check odd divisors from 3 up to √n (inclusive). If any divide n, not prime; else prime.</li>
+                </ol>
+            </p>
+        </div>
+        <button onclick="showAnswer('answer4')">Reveal Answer</button>
+        
+        <p>Now try applying this logic to a few numbers (e.g., 29, 15, 97, 100) and see if you get the correct result.</p>
+        
+        <div class="footer">
+            <p>Remember: The goal is to understand <em>why</em> we check up to √n and skip evens. Try to derive this yourself next time!</p>
+            <p>Got a question? Ask your teaching agent for clarification.</p>
+        </div>
+    </div>
+    
+    <script>
+        function showAnswer(id) {
+            document.getElementById(id).style.display = 'block';
+            // Optionally hide button after reveal
+            // event.target.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
