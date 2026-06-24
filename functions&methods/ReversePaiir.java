@@ -64,8 +64,6 @@ public class ReversePaiir {
             temp[k++] = nums[j++];
         }
         // Copy the sorted temp array back into the original nums array
-        for (int p = 0; p < temp.length; p++) {
-            nums[left + p] = temp[p];
-        }
+        System.arraycopy(temp, 0, nums, left, temp.length);
     }
 }
