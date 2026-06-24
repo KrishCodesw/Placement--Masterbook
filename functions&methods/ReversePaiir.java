@@ -1,5 +1,12 @@
 public class ReversePaiir {
-    public int reversePairs(int[] nums) {
+
+    public static void main(String[] args) {
+        int[] nums = { 4, 5, 6, 1, 2, 4 };
+        int ans = reversePairs(nums);
+        System.out.println(ans);
+    }
+
+    public static int reversePairs(int[] nums) {
         if (nums == null || nums.length == 1) {
             return 0;
         }
