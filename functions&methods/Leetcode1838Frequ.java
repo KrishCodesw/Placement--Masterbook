@@ -13,13 +13,13 @@ public class Leetcode1838Frequ {
 
     static public int maxFrequency(int[] nums, int k) {
         int left = 0;
-        int totalSum = 0;
+        long totalSum = 0;
         int maxFreq = 0;
         Arrays.sort(nums);
 
         for (int right = 0; right <= nums.length - 1; right++) {
             totalSum += nums[right];
-            while ((right - left + 1) * nums[right] - totalSum > k) {
+            while ((long) (right - left + 1) * nums[right] - totalSum > k) {
                 totalSum -= nums[left];
                 left++;
             }
