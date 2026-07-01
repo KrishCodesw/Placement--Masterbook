@@ -1,8 +1,9 @@
 public class Nto1 {
     public static void main(String[] args) {
         int n = 5;
-        Nto1fun(n);
-        Nto1funrev(n);
+        // Nto1fun(n);
+        // Nto1funrev(n);
+        Nto1Both(n);
     }
 
     static void Nto1fun(int n) {
@@ -19,6 +20,16 @@ public class Nto1 {
             return;
         }
         Nto1funrev(n - 1);
+        System.out.println(n);
+
+    }
+
+    static void Nto1Both(int n) {
+        if (n == 0) {
+            return;
+        }
+        System.out.println(n);
+        Nto1Both(n - 1);
         System.out.println(n);
 
     }
