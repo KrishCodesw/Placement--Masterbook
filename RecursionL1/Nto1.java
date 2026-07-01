@@ -10,10 +10,6 @@ public class Nto1 {
         }
         System.out.println(n);
         Nto1fun(n - 1);
-        if (n == 1) {
-            System.out.println(1);
-            return;
-        }
 
     }
 }
