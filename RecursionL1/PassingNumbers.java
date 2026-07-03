@@ -12,6 +12,9 @@ public class PassingNumbers {
         }
         System.out.println(n);
 
+        // n-- will pass n only then subtract
+        // --n will subtract first and then pass
+
         fun(--n);
     }
 
