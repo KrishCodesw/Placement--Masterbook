@@ -20,3 +20,12 @@ public class DigitSum {
         return sum + Digitsum(n);
     }
 }
+// static public int Digitsum(int n) {
+
+// if (n == 0) {
+// return n;
+// }
+
+// return (n%10)+DigitSum(n/10);
+// }
+// }
