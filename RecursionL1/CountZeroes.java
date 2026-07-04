@@ -13,7 +13,7 @@ public class CountZeroes {
         }
 
         if (n % 10 == 0) {
-            return CountZ(n / 10, count);
+            return CountZ(n / 10, count + 1);
         }
 
         return CountZ(n / 10, count);
