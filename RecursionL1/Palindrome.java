@@ -1,6 +1,6 @@
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println(Palin(621544));
+        System.out.println(Palin(2222));
     }
 
     static boolean Palin(int n) {
