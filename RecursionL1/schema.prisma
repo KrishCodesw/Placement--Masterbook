@@ -1,0 +1,121 @@
+model User {
+    id               String         @id @default(cuid())
+    email            String         @unique
+    passwordHash     String // argon2id — never plaintext
+    role             Role           @default(USER)
+    emailVerified    Boolean        @default(false)
+    twoFactorEnabled Boolean        @default(false)
+    twoFactorSecret  String? // AES-256-GCM encrypted TOTP secret
+    isLocked         Boolean        @default(false)
+    failedLoginCount Int            @default(0)
+    lockedAt         DateTime?
+    lastLoginAt      DateTime?
+    lastLoginIp      String?
+    createdAt        DateTime       @default(now())
+    sessions         Session[]
+    cases            Case[]
+    authLogs         AuthAuditLog[]
+}
+
+model Session {
+    id           String   @id @default(cuid())
+    userId       String
+    user         User     @relation(fields: [userId], references: [id])
+    refreshToken String   @unique // SHA-256 hashed — raw token only to client
+    userAgent    String?
+    ipAddress    String?
+    isRevoked    Boolean  @default(false)
+    expiresAt    DateTime
+    createdAt    DateTime @default(now())
+    lastUsedAt   DateTime @default(now())
+}
+
+model EmailVerification {
+    id        String    @id @default(cuid())
+    userId    String
+    token     String    @unique // 6-digit OTP
+    expiresAt DateTime // 15 minutes
+    usedAt    DateTime?
+}
+
+model AuthAuditLog {
+    id        String    @id @default(cuid())
+    userId    String?
+    event     AuthEvent
+    ipAddress String?
+    userAgent String?
+    metadata  Json?
+    createdAt DateTime  @default(now())
+}
+
+enum AuthEvent {
+    REGISTER LOGIN_SUCCESS LOGIN_FAILED LOGIN_BLOCKED
+    PASSWORD_RESET_REQUESTED PASSWORD_RESET_COMPLETED
+    EMAIL_VERIFIED TWO_FACTOR_ENABLED SESSION_REVOKED
+    ACCOUNT_LOCKED ACCOUNT_UNLOCKED SUSPICIOUS_LOGIN
+}
+
+// Case and dispute models
+
+model Case {
+    id             String        @id @default(cuid())
+    userId         String
+    user           User          @relation(fields: [userId], references: [id])
+    transactionId  String?
+    upiId          String?
+    amount         Float?
+    disputeType    DisputeType
+    severity       Severity
+    status         CaseStatus    @default(FILED)
+    assignedTo     Authority?
+    slaDeadline    DateTime?
+    description    String        @db.Text
+    aiSummary      String?       @db.Text
+    draftComplaint String?       @db.Text
+    evidenceUrls   String[] // Cloudinary URLs
+    closedAt       DateTime?
+    auditEvents    AuditEvent[]
+    fraudChecks    FraudCheck[]
+    jurorReviews   JurorReview[]
+    createdAt      DateTime      @default(now())
+}
+
+model AuditEvent {
+    id        String   @id @default(cuid())
+    caseId    String
+    case      Case     @relation(fields: [caseId], references: [id])
+    eventType String // "FILED", "CLASSIFIED", "ROUTED", etc.
+    data      Json // serialized event payload
+    hash      String // SHA-256(prevHash + eventType + JSON.stringify(data))
+    prevHash  String // "GENESIS" for first event
+    actorId   String?
+    createdAt DateTime @default(now())
+}
+
+model FraudCheck {
+    id        String       @id @default(cuid())
+    caseId    String?
+    url       String
+    verdict   FraudVerdict
+    sources   Json // which APIs flagged it and how
+    checkedAt DateTime     @default(now())
+}
+
+model JurorReview {
+    id          String        @id @default(cuid())
+    caseId      String
+    case        Case          @relation(fields: [caseId], references: [id])
+    jurorId     String
+    verdict     JurorVerdict?
+    reasoning   String?       @db.Text
+    submittedAt DateTime?
+    createdAt   DateTime      @default(now())
+}
+
+enum Role         { USER OFFICER_BANK OFFICER_NPCI OMBUDSMAN CYBERCRIME JUROR ADMIN AUDITOR }
+enum DisputeType  { FAILED_TXN UNAUTHORIZED_PAYMENT REFUND_DELAY MERCHANT_SCAM PHISHING }
+enum Severity     { LOW MEDIUM HIGH }
+enum CaseStatus   { FILED CLASSIFIED ROUTED UNDER_REVIEW ESCALATED JUROR_REVIEW RESOLVED CLOSED }
+enum Authority    { BANK NPCI RBI_OMBUDSMAN CYBERCRIME CONSUMER_FORUM }
+enum FraudVerdict { SAFE SUSPICIOUS DANGEROUS }
+enum JurorVerdict { FAVOUR_USER FAVOUR_AUTHORITY INCONCLUSIVE }
