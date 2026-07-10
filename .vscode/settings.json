@@ -1,3 +1,11 @@
 {
-    "java.project.sourcePaths": ["arrays", "binarysearchalgo", "bubblesort", "conditionals", "functions&methods", "linear_search"]
+    "java.project.sourcePaths": [
+        "linear_search",
+        "functions&methods",
+        "conditionals",
+        "bubblesort",
+        "binarysearchalgo",
+        "arrays",
+        "Multithreading"
+    ]
 }
