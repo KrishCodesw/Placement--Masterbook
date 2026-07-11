@@ -16,7 +16,8 @@ public class Thread_States extends Thread {
         t1.start();
         System.out.println(t1.getState() + " " + t1.getName());
         System.out.println(Thread.currentThread().getState() + " " + Thread.currentThread().getName());
-        Thread.sleep(100);
+        // Thread.sleep(100);
+        t1.join();
 
     }
 }
