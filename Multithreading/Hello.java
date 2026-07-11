@@ -8,6 +8,7 @@ public class Hello extends Thread {
 
         for (;;) {
             System.out.println("Hello" + Thread.currentThread().getName());
+
         }
     }
     // Random order of executions -> class-> extend thread class -> override run
