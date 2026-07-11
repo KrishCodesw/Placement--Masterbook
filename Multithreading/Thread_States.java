@@ -2,12 +2,12 @@ public class Thread_States extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getState() + " " + Thread.currentThread().getName());
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             System.out.println(e);
         }
+        System.out.println(Thread.currentThread().getState() + " " + Thread.currentThread().getName());
     }
 
     public static void main(String[] args) throws InterruptedException {
