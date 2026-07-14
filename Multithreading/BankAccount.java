@@ -6,7 +6,7 @@ public class BankAccount {
         if (balance >= amount) {
             try {
                 System.out.println(Thread.currentThread().getName() + " " + "proceeding to withdraw rs" + amount);
-                Thread.sleep(3000);
+                Thread.sleep(10000);
             } catch (InterruptedException ex) {
                 System.getLogger(BankAccount.class.getName()).log(System.Logger.Level.ERROR, (String) null, ex);
             }
