@@ -25,16 +25,20 @@ public class ConditionExample {
         Thread t2 = new Thread(() -> {
             lock.lock();
             try {
-                while (!ready) {
-                    System.out.println("Waiting");
-                    conndition.await();
-                }
-                System.out.println("Thread resumed");
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                ready = true;
+                System.out.println("Signaling");
+                conndition.signal();
             } finally {
                 lock.unlock();
             }
         });
+        t1.start();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        t2.start();
     }
 }
