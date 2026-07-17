@@ -13,6 +13,7 @@ class SharedResource {
         }
         data = value;
         hasData = true;
+        System.out.println("Produced: " + value);
         notify();
     }
 
@@ -25,6 +26,7 @@ class SharedResource {
             }
         }
         hasData = false;
+        System.out.println("Consumed: " + data);
         notify();
         return this.data;
     }
@@ -42,7 +44,7 @@ class Producer implements Runnable {
     public void run() {
         for (int i = 0; i < 10; i++) {
             resource.produce(i);
-            System.out.println("Produced: " + i);
+
         }
     }
 }
@@ -58,7 +60,7 @@ class Consumer implements Runnable {
     public void run() {
         for (int i = 0; i < 10; i++) {
             resource.consume();
-            System.out.println("Consumed: " + i);
+
         }
     }
 }
