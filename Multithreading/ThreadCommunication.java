@@ -3,7 +3,14 @@ class SharedResource {
     private boolean hasData;
 
     public void produce(int value) {
+        while (hasData) {
+            try {
+                wait();
 
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
     }
 
     public int consume() {
@@ -52,6 +59,6 @@ public class ThreadCommunication {
 
         producerThread.start();
         consumerThread.start();
-        
+
     }
 }
