@@ -76,3 +76,7 @@ public class ThreadCommunication {
 
     }
 }
+
+// Object Thread safe tabhi hoga jab woh gaurantee karta hai ki unexpected
+// result nahi aayega koi race condition nahi hogi , jab multiple threads uss
+// object/code clock usko access karne ki try karegi
