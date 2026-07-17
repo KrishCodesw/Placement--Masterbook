@@ -2,7 +2,7 @@ class SharedResource {
     private int data;
     private boolean hasData;
 
-    public void produce(int value) {
+    public synchronized void produce(int value) {
         while (hasData) {
             try {
                 wait();
@@ -11,10 +11,22 @@ class SharedResource {
                 Thread.currentThread().interrupt();
             }
         }
+        data = value;
+        hasData = true;
+        notify();
     }
 
-    public int consume() {
-        return 0;
+    public synchronized int consume() {
+        while (!hasData) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+        }
+        hasData = false;
+        notify();
+        return this.data;
     }
 
 }
