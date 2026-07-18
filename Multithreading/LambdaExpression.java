@@ -17,6 +17,9 @@ public class LambdaExpression {
         Thread t1 = new Thread(() -> {
             System.out.println("Hello");
         });
+
+        // LAMBDA EXPRESSION KO FUNCTIONAL INTERFACE KE REFERENCE MAI DAAL SAKTE HAI
+        // just like a ko int ke reference mai daalte hai
         // Implementation class of runnable
         // () -> {
         // System.out.println("Hello");
