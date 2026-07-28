@@ -15,7 +15,7 @@ public class List_Linear_Search {
     public static ArrayList<Integer> Lsearch(int[] arr, int target, int index, ArrayList<Integer> l) {
 
         if (index == arr.length) {
-            return list;
+            return l;
         }
         if (arr[index] == target) {
             l.add(index);
