@@ -7,22 +7,24 @@ public class NoArg_List_Linear_Search {
 
         int target1 = 8;
 
-        ArrayList<Integer> l = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) {
-            if (Lsearch(arr, target1, 0)) {
-                l.add(i);
-            }
-        }
+        ArrayList<Integer> l = Lsearch(arr, target1, 0);
+
+        System.out.println(l);
 
     }
 
-    public static boolean Lsearch(int[] arr, int target, int index) {
+    public static ArrayList<Integer> Lsearch(int[] arr, int target, int index) {
+        ArrayList<Integer> list = new ArrayList<>();
         if (index == arr.length) {
-            return false;
+            return list;
         }
         if (arr[index] == target) {
-            return true;
+            list.add(index);
         }
-        return Lsearch(arr, target, index + 1);
+
+        ArrayList<Integer> prevAns = Lsearch(arr, target, index + 1);
+        list.addAll(prevAns);
+
+        return list;
     }
 }
