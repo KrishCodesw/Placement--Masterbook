@@ -7,20 +7,20 @@ public class List_Linear_Search {
 
         int target1 = 8;
 
-        System.out.println(Lsearch(arr, target1, 0));
+        System.out.println(Lsearch(arr, target1, 0, list));
     }
 
     static ArrayList<Integer> list = new ArrayList<>();
 
-    public static ArrayList<Integer> Lsearch(int[] arr, int target, int index) {
+    public static ArrayList<Integer> Lsearch(int[] arr, int target, int index, ArrayList<Integer> l) {
 
         if (index == arr.length) {
             return list;
         }
         if (arr[index] == target) {
-            list.add(arr[index]);
-            return list;
+            l.add(index);
         }
-        return Lsearch(arr, target, index + 1);
+
+        return Lsearch(arr, target, index + 1, l);
     }
 }
