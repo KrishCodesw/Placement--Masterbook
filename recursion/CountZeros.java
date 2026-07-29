@@ -5,7 +5,7 @@ public class CountZeros {
 
     public static int countZeros(int n) {
         if (n == 0) {
-            return 1;
+            return n;
         }
         if (n % 10 == 0) {
             return 1 + countZeros(n / 10);
