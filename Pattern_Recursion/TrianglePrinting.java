@@ -10,14 +10,21 @@ public class TrianglePrinting {
         // f(2,2)
         // f(1,3)
         // f(0,4)
-
+        printPattern(5, 0);
     }
 
-    // public static void prinTer(int num, int rows, int cols) {
-    // System.out.print("*");
-    // System.out.println("*");
+    public static void printPattern(int row, int col) {
+        if (row == 0) {
+            return;
+        }
 
-    // prinTer(num, rows + 1, cols - 1);
+        if (col < row) {
+            System.out.print("*");
+            printPattern(row, col + 1);
+        } else {
+            System.out.println();
+            printPattern(row - 1, 0);
+        }
 
-    // }
+    }
 }

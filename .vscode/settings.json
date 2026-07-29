@@ -7,5 +7,6 @@
         "binarysearchalgo",
         "arrays",
         "Multithreading"
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
 }
