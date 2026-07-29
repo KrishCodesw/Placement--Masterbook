@@ -7,7 +7,7 @@ public class NoArg_List_Linear_Search {
 
         int target1 = 8;
 
-        ArrayList<Integer> l = Lsearch(arr, target1, 0);
+        ArrayList<Integer> l = Lsearch(arr, target1, 0); 
 
         System.out.println(l);
 
