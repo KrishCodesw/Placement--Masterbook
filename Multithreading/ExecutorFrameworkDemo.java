@@ -13,6 +13,7 @@ public class ExecutorFrameworkDemo {
             });
             // 3 tasks will wait in waiting queue
         }
+        executor.shutdown();
     }
 
 }
