@@ -13,7 +13,7 @@ public class CompletableFut {
                 .thenRun(() -> System.out.println("Done"));
 
         try {
-            System.out.println(f1.get());
+              System.out.println(f1.get());
             System.out.println(f2.get());
             System.out.println(f3.get());
         } catch (Exception e) {
