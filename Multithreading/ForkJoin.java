@@ -1,7 +1,6 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
@@ -18,6 +17,13 @@ public class ForkJoin {
         String largeWorkload = "LEARNINGFORKJOINPOOL";
         CustomRecursiveAction mainActionTask = new CustomRecursiveAction(largeWorkload);
         forkJoinPool.invoke(mainActionTask);
+
+        int[] sampleArray = new int[30];
+        Arrays.fill(sampleArray, 15);
+        CustomRecursiveTask mainRecursiveTask = new CustomRecursiveTask(sampleArray);
+        Integer result = forkJoinPool.invoke(mainRecursiveTask);
+
+        System.out.println("Final Stream Result from Tasks: " + result);
 
     }
 
@@ -72,10 +78,10 @@ public class ForkJoin {
         }
 
         @Override
-        protected Integer compute(){
-            if(arr.length>THRESHOLD){
+        protected Integer compute() {
+            if (arr.length > THRESHOLD) {
                 return ForkJoinTask.invokeAll(createSubtasks()).stream().mapToInt(ForkJoinTask::join).sum();
-            }else{
+            } else {
                 return processing(arr);
             }
         }
