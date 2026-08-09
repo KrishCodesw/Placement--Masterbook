@@ -1,9 +1,12 @@
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveAction;
+import java.util.concurrent.RecursiveTask;
 import java.util.logging.Logger;
 
 public class ForkJoin {
@@ -13,12 +16,14 @@ public class ForkJoin {
         ForkJoinPool commonPool = ForkJoinPool.commonPool();
 
         String largeWorkload = "LEARNINGFORKJOINPOOL";
-        CustomRecursiveAction mainActionTask=new CustomRecursiveAction(largeWorkload);
+        CustomRecursiveAction mainActionTask = new CustomRecursiveAction(largeWorkload);
         forkJoinPool.invoke(mainActionTask);
 
     }
 
     public static ForkJoinPool forkJoinPool = new ForkJoinPool(2);
+
+    // ____________________ RECURSIVE ACTION__________________________
 
     public static class CustomRecursiveAction extends RecursiveAction {
         private String workload = "";
@@ -55,4 +60,41 @@ public class ForkJoin {
                     + Thread.currentThread().getName());
         }
     }
+    // ____________________ RECURSIVE TASK__________________________
+
+    public static class CustomRecursiveTask extends RecursiveTask<Integer> {
+        private int[] arr;
+
+        private static final int THRESHOLD = 20;
+
+        public CustomRecursiveTask(int[] arr) {
+            this.arr = arr;
+        }
+
+        @Override
+        protected Integer compute(){
+            if(arr.length>THRESHOLD){
+                return ForkJoinTask.invokeAll(createSubtasks()).stream().mapToInt(ForkJoinTask::join).sum();
+            }else{
+                return processing(arr);
+            }
+        }
+
+        private List<CustomRecursiveTask> createSubtasks() {
+            List<CustomRecursiveTask> dividedTasks = new ArrayList<>();
+            dividedTasks.add(new CustomRecursiveTask(
+                    Arrays.copyOfRange(arr, 0, arr.length / 2)));
+            dividedTasks.add(new CustomRecursiveTask(
+                    Arrays.copyOfRange(arr, arr.length / 2, arr.length)));
+            return dividedTasks;
+        }
+
+        private Integer processing(int[] arr) {
+            return Arrays.stream(arr)
+                    .filter(a -> a > 10 && a < 27)
+                    .map(a -> a * 10)
+                    .sum();
+        }
+    }
+
 }
