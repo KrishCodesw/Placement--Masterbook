@@ -12,11 +12,15 @@ public class ForkJoin {
 
         ForkJoinPool commonPool = ForkJoinPool.commonPool();
 
+        String largeWorkload = "LEARNINGFORKJOINPOOL";
+        CustomRecursiveAction mainActionTask=new CustomRecursiveAction(largeWorkload);
+        forkJoinPool.invoke(mainActionTask);
+
     }
 
     public static ForkJoinPool forkJoinPool = new ForkJoinPool(2);
 
-    public class CustomRecursiveAction extends RecursiveAction {
+    public static class CustomRecursiveAction extends RecursiveAction {
         private String workload = "";
         private static final int THRESHOLD = 4;
         private static Logger logger = Logger.getAnonymousLogger();
