@@ -8,6 +8,7 @@ public class SkipCharacter {
 
     public static void main(String[] args) {
         skipCh("", "baccad");
+        skipCh("baccad");
     }
 
     public static void skipCh(String processed, String unprocessed) {
@@ -21,6 +22,20 @@ public class SkipCharacter {
 
         } else {
             skipCh(processed + ch, unprocessed.substring(1));
+        }
+
+    }
+
+    public static String skipCh(String unprocessed) {
+        if (unprocessed.isEmpty()) {
+            return "";
+        }
+        char ch = unprocessed.charAt(0);
+        if (ch == 'a') {
+            return skipCh(unprocessed.substring(1));
+
+        } else {
+            return ch + skipCh(unprocessed.substring(1));
         }
 
     }
