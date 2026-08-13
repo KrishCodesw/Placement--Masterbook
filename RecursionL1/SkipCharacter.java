@@ -8,7 +8,8 @@ public class SkipCharacter {
 
     public static void main(String[] args) {
         skipCh("", "baccad");
-        skipCh("baccad");
+        System.out.println(  skipCh("baccad")); 
+      
     }
 
     public static void skipCh(String processed, String unprocessed) {
