@@ -10,7 +10,7 @@ public class SkipCharacter {
         skipCh("", "baccad");
         System.out.println(skipCh("baccad"));
         System.out.println(skipString("bacapplecdah"));
-        System.out.println(skipsubString("bacapplecdah"));
+        System.out.println(skipsubString("baca dah"));
 
     }
 
