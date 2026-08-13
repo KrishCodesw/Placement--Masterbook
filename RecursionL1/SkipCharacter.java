@@ -8,8 +8,9 @@ public class SkipCharacter {
 
     public static void main(String[] args) {
         skipCh("", "baccad");
-        System.out.println(  skipCh("baccad")); 
-      
+        System.out.println(skipCh("baccad"));
+        System.out.println(skipString("bacapplecdah"));
+
     }
 
     public static void skipCh(String processed, String unprocessed) {
@@ -37,6 +38,20 @@ public class SkipCharacter {
 
         } else {
             return ch + skipCh(unprocessed.substring(1));
+        }
+
+    }
+
+    public static String skipString(String unprocessed) {
+        if (unprocessed.isEmpty()) {
+            return "";
+        }
+
+        if (unprocessed.startsWith("apple")) {
+            return skipString(unprocessed.substring(5));
+
+        } else {
+            return unprocessed.charAt(0) + skipString(unprocessed.substring(1));
         }
 
     }
