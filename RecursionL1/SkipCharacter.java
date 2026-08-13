@@ -10,6 +10,7 @@ public class SkipCharacter {
         skipCh("", "baccad");
         System.out.println(skipCh("baccad"));
         System.out.println(skipString("bacapplecdah"));
+        System.out.println(skipsubString("bacapplecdah"));
 
     }
 
@@ -52,6 +53,20 @@ public class SkipCharacter {
 
         } else {
             return unprocessed.charAt(0) + skipString(unprocessed.substring(1));
+        }
+
+    }
+
+    public static String skipsubString(String unprocessed) {
+        if (unprocessed.isEmpty()) {
+            return "";
+        }
+
+        if (unprocessed.startsWith("app") && !unprocessed.startsWith("apple")) {
+            return skipsubString(unprocessed.substring(3));
+
+        } else {
+            return unprocessed.charAt(0) + skipsubString(unprocessed.substring(1));
         }
 
     }
