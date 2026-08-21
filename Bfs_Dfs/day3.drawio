@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Day 3 - Red Team">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1400" pageHeight="900">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- CENTER -->
+        <mxCell id="center"
+          value="DAY 3&#10;ATTACK OUR OWN PROBLEM"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F2937;fontColor=#FFFFFF;strokeColor=#111827;strokeWidth=3;fontStyle=1;fontSize=20;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="360" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- CLAIM 1 -->
+        <mxCell id="claim1"
+          value="CLAIM 1&#10;Existing systems expose&#10;sensitive evidence"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;fontColor=#991B1B;strokeColor=#DC2626;strokeWidth=2;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="250" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="result1"
+          value="RED TEAM RESULT&#10;&#10;FALSE AS STATED&#10;&#10;Encryption&#10;Access control&#10;RBAC&#10;Audit logs&#10;Controlled sharing"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FCA5A5;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="25" y="180" width="280" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- CLAIM 2 -->
+        <mxCell id="claim2"
+          value="CLAIM 2&#10;Blockchain systems expose&#10;sensitive metadata"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;fontColor=#92400E;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="270" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="result2"
+          value="RED TEAM RESULT&#10;&#10;SOME EVIDENCE&#10;&#10;B-CoC can expose custody relationships.&#10;&#10;e-CoC / LEChain use off-chain or privacy mechanisms."
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FCD34D;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="335" y="180" width="300" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- CLAIM 3 -->
+        <mxCell id="claim3"
+          value="CLAIM 3&#10;ZKP solves the&#10;remaining problem"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;fontColor=#991B1B;strokeColor=#DC2626;strokeWidth=2;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="250" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="result3"
+          value="RED TEAM RESULT&#10;&#10;ASSUMPTION&#10;&#10;ZKP can prove selected statements privately.&#10;&#10;It does NOT prove real-world truth or admissibility by itself."
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FCA5A5;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="660" y="180" width="290" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- CLAIM 4 -->
+        <mxCell id="claim4"
+          value="CLAIM 4&#10;Courts actually&#10;need this"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;fontColor=#92400E;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="1000" y="70" width="230" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="result4"
+          value="RED TEAM RESULT&#10;&#10;SOME EVIDENCE&#10;&#10;Courts care about authentication, integrity, provenance and reliability.&#10;&#10;No proof courts specifically require SSI/ZKP."
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FCD34D;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="975" y="180" width="280" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- CLAIM 5 -->
+        <mxCell id="claim5"
+          value="CLAIM 5&#10;Commercial products&#10;don't solve it"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;fontColor=#92400E;strokeColor=#D97706;strokeWidth=2;fontStyle=1;fontSize=15;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="250" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="result5"
+          value="RED TEAM RESULT&#10;&#10;SOME EVIDENCE — ONLY AFTER NARROWING&#10;&#10;Guardian, Axon, FTK, etc. already solve major parts of integrity, privacy, access and CoC.&#10;&#10;Cross-platform verification remains a hypothesis."
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FCD34D;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="20" y="540" width="290" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- SURVIVED -->
+        <mxCell id="survived"
+          value="WHAT SURVIVED?"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;fontColor=#166534;strokeColor=#16A34A;strokeWidth=2;fontStyle=1;fontSize=17;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="survivedText"
+          value="Evidence integrity matters&#10;&#10;Chain of custody matters&#10;&#10;Authentication matters&#10;&#10;Multiple organizations may need to trust records&#10;&#10;Minimum disclosure may be useful"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#86EFAC;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="310" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- KILLED -->
+        <mxCell id="killed"
+          value="ASSUMPTIONS KILLED"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;fontColor=#991B1B;strokeColor=#DC2626;strokeWidth=2;fontStyle=1;fontSize=17;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="700" y="430" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="killedText"
+          value="Systems expose evidence&#10;Blockchain always leaks metadata&#10;ZKP solves everything&#10;Courts require ZKP&#10;Commercial products are inadequate"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FCA5A5;fontSize=13;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="675" y="510" width="300" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- REVISED -->
+        <mxCell id="revised"
+          value="REVISED HYPOTHESIS"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;fontColor=#075985;strokeColor=#0284C7;strokeWidth=2;fontStyle=1;fontSize=17;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="1010" y="430" width="250" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="revisedText"
+          value="Existing systems are strong within their governed platforms.&#10;&#10;OPEN QUESTION: Can independent organizations verify evidence provenance, actor authorization and custody across platform boundaries without unnecessary disclosure?"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F9FF;strokeColor=#7DD3FC;fontSize=13;align=center;verticalAlign=middle;spacing=8;"
+          vertex="1" parent="1">
+          <mxGeometry x="990" y="510" width="290" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- DAY 4 -->
+        <mxCell id="day4"
+          value="DAY 4&#10;&#10;Does this cross-organization gap actually exist?&#10;&#10;Who experiences it?&#10;How often?&#10;What solutions already exist?"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=3;fontStyle=1;fontSize=17;align=center;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="500" y="760" width="420" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- CONNECTORS -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;" edge="1" parent="1" source="center" target="claim1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;" edge="1" parent="1" source="center" target="claim2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;" edge="1" parent="1" source="center" target="claim3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;" edge="1" parent="1" source="center" target="claim4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#64748B;strokeWidth=2;" edge="1" parent="1" source="center" target="claim5"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#DC2626;" edge="1" parent="1" source="claim1" target="result1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#D97706;" edge="1" parent="1" source="claim2" target="result2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#DC2626;" edge="1" parent="1" source="claim3" target="result3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#D97706;" edge="1" parent="1" source="claim4" target="result4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#D97706;" edge="1" parent="1" source="claim5" target="result5"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#16A34A;strokeWidth=2;" edge="1" parent="1" source="survived" target="survivedText"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#DC2626;strokeWidth=2;" edge="1" parent="1" source="killed" target="killedText"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0284C7;strokeWidth=2;" edge="1" parent="1" source="revised" target="revisedText"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#111827;strokeWidth=3;endArrow=block;" edge="1" parent="1" source="revisedText" target="day4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
