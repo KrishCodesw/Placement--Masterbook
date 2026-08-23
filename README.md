@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0016-3sum-closest](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0016-3sum-closest) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
+| [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
 | [0876-middle-of-the-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
@@ -40,14 +41,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0643-maximum-average-subarray-i) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## String
 |  |
 | ------- |
+| [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Math
 |  |
 | ------- |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
+## Hash Table
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
