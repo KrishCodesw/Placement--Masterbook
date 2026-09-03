@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0016-3sum-closest) |
+| [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
 | [0643-maximum-average-subarray-i](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0643-maximum-average-subarray-i) |
 ## Binary Search
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0643-maximum-average-subarray-i) |
@@ -60,4 +62,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0438-find-all-anagrams-in-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
