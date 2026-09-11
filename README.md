@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0303-range-sum-query-immutable) |
+| [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0560-subarray-sum-equals-k) |
@@ -129,9 +130,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0155-min-stack) |
+| [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
