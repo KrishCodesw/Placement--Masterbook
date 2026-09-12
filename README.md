@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0016-3sum-closest) |
+| [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0209-minimum-size-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 ## Prefix Sum
 |  |
@@ -129,12 +131,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0155-min-stack](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0155-min-stack) |
 | [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
