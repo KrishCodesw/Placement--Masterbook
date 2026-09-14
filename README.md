@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0076-minimum-window-substring) |
+| [0394-decode-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
 | [0155-min-stack](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0394-decode-string) |
 | [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
@@ -152,4 +154,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
