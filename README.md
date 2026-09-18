@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 | [0876-middle-of-the-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0560-subarray-sum-equals-k) |
+| [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 | [0904-fruit-into-baskets](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0904-fruit-into-baskets) |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
+| [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -132,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0303-range-sum-query-immutable) |
+| [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 ## Stack
 |  |
 | ------- |
