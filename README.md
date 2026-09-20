@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
 | [0904-fruit-into-baskets](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0904-fruit-into-baskets) |
+| [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0016-3sum-closest) |
+| [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 ## Sliding Window
 |  |
 | ------- |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 | [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
+| [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -169,5 +172,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 | [3498-reverse-degree-of-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/3498-reverse-degree-of-a-string) |
 <!---LeetCode Topics End-->
