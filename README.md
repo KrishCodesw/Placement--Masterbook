@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0021-merge-two-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0138-copy-list-with-random-pointer) |
 | [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0206-reverse-linked-list) |
 | [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0076-minimum-window-substring) |
+| [0138-copy-list-with-random-pointer](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0138-copy-list-with-random-pointer) |
 | [0424-longest-repeating-character-replacement](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
