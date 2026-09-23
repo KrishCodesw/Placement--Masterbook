@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0206-reverse-linked-list) |
 | [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 | [0876-middle-of-the-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0876-middle-of-the-linked-list) |
@@ -11,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0016-3sum-closest) |
+| [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0567-permutation-in-string) |
 | [0876-middle-of-the-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0876-middle-of-the-linked-list) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
+| [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0394-decode-string) |
@@ -169,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0394-decode-string) |
 ## Simulation
