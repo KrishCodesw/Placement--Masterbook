@@ -23,6 +23,7 @@ class Solution {
         ListNode smallest = heap.poll();
         currentNode.next=smallest;
         currentNode=currentNode.next;
+        
         if(smallest.next!=null){
             heap.offer(smallest.next);
         }
