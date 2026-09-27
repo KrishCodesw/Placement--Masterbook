@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0025-reverse-nodes-in-k-group) |
 | [0138-copy-list-with-random-pointer](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0138-copy-list-with-random-pointer) |
 | [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 ## Monotonic Queue
 |  |
@@ -186,4 +188,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 | [3498-reverse-degree-of-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/3498-reverse-degree-of-a-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0023-merge-k-sorted-lists) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
