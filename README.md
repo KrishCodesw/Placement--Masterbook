@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0025-reverse-nodes-in-k-group) |
 | [0138-copy-list-with-random-pointer](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0138-copy-list-with-random-pointer) |
 | [0143-reorder-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0206-reverse-linked-list) |
 | [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 | [0876-middle-of-the-linked-list](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0876-middle-of-the-linked-list) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0076-minimum-window-substring) |
 | [0138-copy-list-with-random-pointer](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0303-range-sum-query-immutable) |
@@ -200,4 +203,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0023-merge-k-sorted-lists) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
