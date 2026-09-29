@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0016-3sum-closest) |
+| [0048-rotate-image](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0054-spiral-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0048-rotate-image) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 ## Hash Table
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0054-spiral-matrix) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
 ## Recursion
