@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0904-fruit-into-baskets) |
 | [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0974-subarray-sums-divisible-by-k) |
+| [0994-rotting-oranges](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
+| [0994-rotting-oranges](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0994-rotting-oranges) |
 ## Recursion
 |  |
 | ------- |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
+| [0994-rotting-oranges](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
