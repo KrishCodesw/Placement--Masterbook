@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0074-search-a-2d-matrix) |
 | [0084-largest-rectangle-in-histogram](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
 ## Recursion
 |  |
 | ------- |
@@ -219,4 +221,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0146-lru-cache) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
