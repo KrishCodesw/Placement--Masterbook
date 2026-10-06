@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
+| [0289-game-of-life](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0289-game-of-life) |
 | [0303-range-sum-query-immutable](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0303-range-sum-query-immutable) |
 | [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
+| [0289-game-of-life](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0289-game-of-life) |
 | [0994-rotting-oranges](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0994-rotting-oranges) |
 ## Recursion
 |  |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0054-spiral-matrix) |
+| [0289-game-of-life](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0289-game-of-life) |
 | [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 | [3498-reverse-degree-of-a-string](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/3498-reverse-degree-of-a-string) |
 ## Divide and Conquer
