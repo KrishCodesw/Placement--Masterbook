@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0622-design-circular-queue](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0739-daily-temperatures) |
+| [0875-koko-eating-bananas](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0904-fruit-into-baskets) |
 | [0950-reveal-cards-in-increasing-order](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0950-reveal-cards-in-increasing-order) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
+| [0875-koko-eating-bananas](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1004-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
