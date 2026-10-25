@@ -1,32 +1,33 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
-          int start = 0;
-        int end = 0;
-        for (int i = 0; i < nums.length; i++) {
-            start = Math.max(start, nums[i]);
-            end += nums[i];
+        int start=0; // yenjoh element hau woh array ka largest element hau
+        int end=0;   // yeh joh element hai woh pure array ka sum hau
+
+        for(int num:nums){
+            start=Math.max(start,num);
+            end+=num;
         }
-        while (start < end) {
-            // try for middle as the potential ans
-            int mid = start + (end -start) / 2;
-            // calculate how many peices you can divide this in with this max sum
-            int sum = 0;
-            int peices = 1;
-            for (int num : nums) {
-                if (sum + num > mid) {
-                    // you cannot add this in this subarray , make new one
-                    sum = num;
-                    peices++;
-                } else {
-                    sum += num;
+        int ans=end;
+        while(start<=end){
+            int mid=start+(end-start)/2;
+            int numOfSubArrays=1;
+            int currentSum=0;
+
+            for(int num:nums){
+                if(currentSum+num>mid){
+                    numOfSubArrays++;
+                    currentSum=num;
+                }else{
+                    currentSum+=num;
                 }
             }
-            if (peices > k) {
-                start = mid + 1;
-            } else {
-                end = mid;
+            if(numOfSubArrays>k){
+                start=mid+1;
+            }else{
+                ans=mid;
+                end=mid-1;
             }
         }
-        return end;
+        return ans;
     }
 }
