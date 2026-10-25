@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0289-game-of-life) |
 | [0303-range-sum-query-immutable](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0303-range-sum-query-immutable) |
+| [0410-split-array-largest-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0410-split-array-largest-sum) |
 | [0503-next-greater-element-ii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0525-contiguous-array) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0287-find-the-duplicate-number) |
+| [0410-split-array-largest-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0410-split-array-largest-sum) |
 | [0875-koko-eating-bananas](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0303-range-sum-query-immutable) |
+| [0410-split-array-largest-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0560-subarray-sum-equals-k) |
@@ -194,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0085-maximal-rectangle) |
+| [0410-split-array-largest-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0410-split-array-largest-sum) |
 ## Matrix
 |  |
 | ------- |
@@ -249,4 +253,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0200-number-of-islands) |
+## Greedy
+|  |
+| ------- |
+| [0410-split-array-largest-sum](https://github.com/KrishCodesw/Placement--Masterbook/tree/master/0410-split-array-largest-sum) |
 <!---LeetCode Topics End-->
